@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Searchfornews</string>
+    <string name="button_1">首页</string>
+    <string name="button_2">我的</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home_title_label">校内新闻</string>
+    <string name="more">查看更多>></string>
+    <string name="news_label">西财新闻</string>
+    <string name="info_label">通知公告</string>
+    <string name="course_label">学术讲座</string>
+    <string name="state_label">学院动态</string>
+    <string name="label_search_teachers">查询教师</string>
+    <string name="label_calculate">计算绩点</string>
+    <string name="label_weather">查看天气</string>
+    <string name="label_tips1">请在下方输入框内输入您想要查询的教师名称:</string>
+    <string name="label_teacher_name">教师名称</string>
+    <string name="btn_label_submit">确定</string>
+</resources>
