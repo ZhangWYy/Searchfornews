@@ -14,7 +14,7 @@
     <string name="label_search_teachers">查询教师</string>
     <string name="label_calculate">计算绩点</string>
     <string name="label_weather">查看天气</string>
-    <string name="label_tips1">请在下方输入框内输入您想要查询的教师名称:</string>
+    <string name="label_tips1">请在下方输入框内输入您想要查询的(经济信息工程学院)教师名称:</string>
     <string name="label_teacher_name">教师名称</string>
     <string name="btn_label_submit">确定</string>
 </resources>
