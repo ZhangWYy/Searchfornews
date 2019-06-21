@@ -281,8 +281,8 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
             Element infoTable1 = infoTables.get(3);
             //    Log.i(TAG, "run: table1="+table1);
             Elements infoTds = infoTable1.getElementsByTag("td");
-            Element infoTd1 = infoTds.get(2);
-            Element infoTd2 = infoTds.get(3);
+            Element infoTd1 = infoTds.get(5);
+            Element infoTd2 = infoTds.get(6);
             Log.i(TAG, "td1="+infoTd1);
             Log.i(TAG, "td2: "+infoTd2);
             String str3= infoTd1.text();

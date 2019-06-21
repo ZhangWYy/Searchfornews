@@ -12,9 +12,13 @@
     <string name="course_label">学术讲座</string>
     <string name="state_label">学院动态</string>
     <string name="label_search_teachers">查询教师</string>
-    <string name="label_calculate">计算绩点</string>
+    <string name="label_calculate">计算GPA</string>
     <string name="label_weather">查看天气</string>
     <string name="label_tips1">请在下方输入框内输入您想要查询的(经济信息工程学院)教师名称:</string>
     <string name="label_teacher_name">教师名称</string>
     <string name="btn_label_submit">确定</string>
+    <string name="label_input">请在第一个输入框输入课程的学分，在第二个输入框内输入课程成绩，每次输入完成后点击“确定”</string>
+    <string name="label_credit">请输入学分</string>
+    <string name="label_grade">请输入该科成绩</string>
+    <string name="label_btn_commit">提交</string>
 </resources>
