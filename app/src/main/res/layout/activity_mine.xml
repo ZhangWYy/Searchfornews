@@ -9,9 +9,16 @@
     tools:context=".MineActivity">
 
     <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:textSize="20sp" />
+
+    <TextView
         android:id="@+id/teachers"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="100dp"
         android:gravity="center"
         android:text="@string/label_search_teachers"
         android:onClick="onClick"
@@ -20,19 +27,12 @@
     <TextView
         android:id="@+id/calculate"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="100dp"
         android:textSize="20sp"
         android:gravity="center"
         android:onClick="onClick"
         android:text="@string/label_calculate" />
 
-    <TextView
-        android:id="@+id/weather"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:text="@string/label_weather"
-        android:onClick="onClick"
-        android:textSize="20sp" />
+
 
 </LinearLayout>

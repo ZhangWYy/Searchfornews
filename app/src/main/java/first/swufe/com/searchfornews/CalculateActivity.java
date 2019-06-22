@@ -31,15 +31,11 @@ public class CalculateActivity extends AppCompatActivity implements View.OnClick
         credit = findViewById(R.id.credit);
         grade = findViewById(R.id.grade);
 
-      //  SharedPreferences sharedPreferences = getSharedPreferences("sum",Activity.MODE_PRIVATE);
-       // sum = sharedPreferences.getInt("sum_grade",0);
     }
 
     @Override
     public void onClick(View v) {
 
-       // SharedPreferences sharedPreferences = getSharedPreferences("sum", Activity.MODE_PRIVATE);
-       // SharedPreferences.Editor editor = sharedPreferences.edit();
         if(v.getId()==R.id.btn_confirm) {
              a = Integer.parseInt(credit.getText().toString());
              b = Integer.parseInt(grade.getText().toString());
@@ -52,8 +48,7 @@ public class CalculateActivity extends AppCompatActivity implements View.OnClick
              grade.setText("");
              gpa = sumB/sumA;
              finalGrade.setText("您的GPA为："+String.format("%.2f",gpa));
-           // editor.putFloat("sum_grade",sum);
-           // editor.commit();
+
         }
     }
 }

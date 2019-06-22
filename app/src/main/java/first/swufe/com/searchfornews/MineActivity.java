@@ -6,11 +6,10 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
-public class MineActivity extends AppCompatActivity implements View.OnClickListener {
+public class  MineActivity extends AppCompatActivity implements View.OnClickListener {
 
     private TextView teacher;
     private TextView calculate;
-    private TextView weather;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,8 +20,6 @@ public class MineActivity extends AppCompatActivity implements View.OnClickListe
         teacher.setOnClickListener(this);
         calculate = findViewById(R.id.calculate);
         calculate.setOnClickListener(this);
-        weather = findViewById(R.id.weather);
-        weather.setOnClickListener(this);
     }
 
     @Override
@@ -33,9 +30,6 @@ public class MineActivity extends AppCompatActivity implements View.OnClickListe
             startActivity(intent);
         }else if(v.getId()==R.id.calculate){
             intent.setClass(MineActivity.this,CalculateActivity.class);
-            startActivity(intent);
-        }else if(v.getId()==R.id.weather){
-            intent.setClass(MineActivity.this,WeatherActivity.class);
             startActivity(intent);
         }
     }
