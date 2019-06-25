@@ -60,7 +60,6 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
 
         newsDetail = findViewById(R.id.newsDetail);
         newsDetail.setOnClickListener(this);
-
         newsDate = findViewById(R.id.newsDate);
 
         infoDetail = findViewById(R.id.infoDetail);
@@ -153,12 +152,13 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
         Intent intent = new Intent();
         if(v.getId()==R.id.newsDetail){
             String aa = sharedPreferences.getString("news_http","null");
+            intent.setClass(HomeActivity.this,DetailActivity.class);
             //实例化webview对象
-            webView = new WebView(this);
+           // webView = new WebView(this);
             //设置wubview属性，能够执行JavaScript脚本
-            webView.getSettings().setJavaScriptEnabled(true);
+            //webView.getSettings().setJavaScriptEnabled(true);
             //打开网页
-            webView.loadUrl(aa);
+            //webView.loadUrl(aa);
 
         }
 
